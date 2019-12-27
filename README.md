@@ -15,7 +15,7 @@ Include the following in your `_pkgdown.yaml` file:
 
 ``` yaml
 template:
-  package: tidytemplate
+  package: mayotemplate
 ```
 
 `mayotemplate` follows the same setup as `tidytemplate`. For more
