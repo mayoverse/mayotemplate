@@ -1,0 +1,12 @@
+template:
+  package: mayotemplate
+
+navbar:
+  title: ~
+  type: default
+  left:
+  - text: Reference
+    href: reference/index.html
+  right:
+  - icon: fa-github fa-lg
+    href: https://github.com/overdodactyl/mayotemplate
