@@ -20,3 +20,12 @@ template:
 
 `mayotemplate` follows the same setup as `tidytemplate`. For more
 documentation, please see their README file.
+
+### Deploying a site on Travis-CI to Github Pages
+
+Include the following in your `.travis.yml` file:
+
+``` yaml
+ before_cache:
+    - Rscript -e 'remotes::install_github("overdodactyl/mayotemplate")'
+```
