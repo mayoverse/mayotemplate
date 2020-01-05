@@ -63,6 +63,7 @@
       </header><div class="row">
   <div class="contents col-md-9">
 
+
 <div id="overview" class="section level2">
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
@@ -79,7 +80,7 @@
 <div id="deploying-a-site-on-travis-ci-to-github-pages" class="section level3">
 <h3 class="hasAnchor">
 <a href="#deploying-a-site-on-travis-ci-to-github-pages" class="anchor"></a>Deploying a site on Travis-CI to Github Pages</h3>
-<p>Include the following in your <code>.travis.yml</code> file:</p>
+<p>If you are automatically deploying your site with Travis, add the following in your <code>.travis.yml</code> file:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><a class="sourceLine" id="cb2-1" data-line-number="1"> <span class="fu">before_cache:</span></a>
 <a class="sourceLine" id="cb2-2" data-line-number="2">    <span class="kw"><a href="https://rdrr.io/r/base/Arithmetic.html">-</a></span> <span class="fu">Rscript -e 'remotes:</span><span class="at">:install_github("overdodactyl/mayotemplate")'</span></a></code></pre></div>
 </div>
@@ -110,7 +111,14 @@
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://travis-ci.org/overdodactyl/mayotemplate"><img src="https://travis-ci.org/overdodactyl/mayotemplate.svg?branch=master" alt="Travis build status"></a></li>
+<li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 
