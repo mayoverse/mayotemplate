@@ -1,6 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/overdodactyl/mayotemplate.svg?branch=master)](https://travis-ci.org/overdodactyl/mayotemplate)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
 ## Overview
 
 mayotemplate provides a custom [pkgdown](https://pkgdown.r-lib.org)
@@ -23,7 +31,8 @@ documentation, please see their README file.
 
 ### Deploying a site on Travis-CI to Github Pages
 
-Include the following in your `.travis.yml` file:
+If you are automatically deploying your site with Travis, add the
+following in your `.travis.yml` file:
 
 ``` yaml
  before_cache:
